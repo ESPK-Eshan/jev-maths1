@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Orchestrator"
+  short_description: "Coordinate rigorous AI research from idea to paper"
+  default_prompt: "Use $research-orchestrator to develop my AI research idea into a reproducible project and manuscript with my saved role profile."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "stages": [
+    {
+      "number": 1,
+      "name": "TOPIC_INIT"
+    },
+    {
+      "number": 2,
+      "name": "PROBLEM_DECOMPOSE"
+    },
+    {
+      "number": 3,
+      "name": "SEARCH_STRATEGY"
+    },
+    {
+      "number": 4,
+      "name": "LITERATURE_COLLECT"
+    },
+    {
+      "number": 5,
+      "name": "LITERATURE_SCREEN"
+    },
+    {
+      "number": 6,
+      "name": "KNOWLEDGE_EXTRACT"
+    },
+    {
+      "number": 7,
+      "name": "SYNTHESIS"
+    },
+    {
+      "number": 8,
+      "name": "HYPOTHESIS_GEN"
+    },
+    {
+      "number": 9,
+      "name": "EXPERIMENT_DESIGN"
+    },
+    {
+      "number": 10,
+      "name": "CODE_GENERATION"
+    },
+    {
+      "number": 11,
+      "name": "RESOURCE_PLANNING"
+    },
+    {
+      "number": 12,
+      "name": "EXPERIMENT_RUN"
+    },
+    {
+      "number": 13,
+      "name": "ITERATIVE_REFINE"
+    },
+    {
+      "number": 14,
+      "name": "RESULT_ANALYSIS"
+    },
+    {
+      "number": 15,
+      "name": "RESEARCH_DECISION"
+    },
+    {
+      "number": 16,
+      "name": "PAPER_OUTLINE"
+    },
+    {
+      "number": 17,
+      "name": "PAPER_DRAFT"
+    },
+    {
+      "number": 18,
+      "name": "PEER_REVIEW"
+    },
+    {
+      "number": 19,
+      "name": "PAPER_REVISION"
+    },
+    {
+      "number": 20,
+      "name": "QUALITY_GATE"
+    },
+    {
+      "number": 21,
+      "name": "KNOWLEDGE_ARCHIVE"
+    },
+    {
+      "number": 22,
+      "name": "EXPORT_PUBLISH"
+    },
+    {
+      "number": 23,
+      "name": "CITATION_VERIFY"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "profile_name": "mtech-ai-research",
+  "roles": {
+    "literature_scout": {
+      "model": null,
+      "effort": null
+    },
+    "novelty_skeptic": {
+      "model": null,
+      "effort": null
+    },
+    "research_designer": {
+      "model": null,
+      "effort": null
+    },
+    "implementation_engineer": {
+      "model": null,
+      "effort": null
+    },
+    "experiment_optimizer": {
+      "model": null,
+      "effort": null
+    },
+    "confirmation_executor": {
+      "model": null,
+      "effort": null
+    },
+    "compute_scheduler": {
+      "model": null,
+      "effort": null
+    },
+    "analysis_agent": {
+      "model": null,
+      "effort": null
+    },
+    "artifact_author": {
+      "model": null,
+      "effort": null
+    },
+    "manuscript_author": {
+      "model": null,
+      "effort": null
+    },
+    "stage_verifier": {
+      "model": null,
+      "effort": null
+    },
+    "journal_stage_critic": {
+      "model": null,
+      "effort": null
+    },
+    "scientific_reviewer": {
+      "model": null,
+      "effort": null
+    },
+    "citation_auditor": {
+      "model": null,
+      "effort": null
+    },
+    "documentation_steward": {
+      "model": null,
+      "effort": null
+    }
+  },
+  "autonomy": "ask-per-project",
+  "allow_silent_model_fallback": false,
+  "max_parallel_workers": 3,
+  "swarm": {
+    "enabled": true,
+    "max_agents_per_swarm": 100,
+    "allocation": "adaptive-within-project-budget",
+    "overflow": "queue-in-runtime-bounded-waves",
+    "recursive_spawning": "coordinator-allocation-required"
+  },
+  "remote_compute": {
+    "backend_selection": "evidence-based-simplest-sufficient",
+    "recommendation_at": "experiment-design-completion-before-full-implementation",
+    "placement": "suitable-authorized-current-remote-first-otherwise-local-or-existing-cloud-if-fit",
+    "insufficient_capacity": "provide-user-rental-requirements-and-wait-for-access-or-existing-provisioning-authority",
+    "skypilot": "when-supported-and-beneficial",
+    "ray_train": "when-workload-and-measured-gain-justify"
+  },
+  "negative_result_recovery": {
+    "enabled": true,
+    "discovery_status": "explicitly-exploratory",
+    "retain_original_hypothesis_and_all_examined_patterns": true,
+    "new_confirmatory_claims": "new-frozen-protocol-and-appropriate-independent-evidence",
+    "limits": "existing-project-pivot-budget-and-stage-reloop-lineage"
+  },
+  "completion_backup": {
+    "remote_projects": true,
+    "destination": "google-drive-plugin",
+    "new_folder_per_completed_project_run": true,
+    "delivery_identity": "project-id/run-id/delivery-version",
+    "reuse_folder_for_delivery_retries": true,
+    "format": "zip",
+    "content_verification_required": true
+  },
+  "publication": {
+    "target_family": "IEEE-journal",
+    "target_index": "SCIE-to-be-verified-for-selected-journal",
+    "specific_journal": null,
+    "template": "current-official-journal-template",
+    "stage_criticism": "every-stage-instance",
+    "critic_quality_gate": {
+      "minimum_criteria": 5,
+      "default_criteria": 7,
+      "score_min": 0,
+      "score_max": 100,
+      "aggregation": "equal-weight-arithmetic-mean",
+      "pass_threshold": 90,
+      "comparison": ">=",
+      "max_reloop_iterations": 2,
+      "hard_blockers_override_score": true,
+      "post_reloop_decision_owner": "main-orchestrator-or-explicitly-delegated-executor",
+      "minor_issue_conditional_advance": true
+    }
+  },
+  "logging": {
+    "retention": "all-available-project-logs-including-failures",
+    "raw_capture": "outside-mutable-experiment-scope",
+    "index_format": "jsonl",
+    "summaries_replace_originals": false,
+    "remote_durability": "incremental-with-final-flush-and-verification",
+    "coverage_gaps": "explicit",
+    "secrets": "redact-at-capture-and-audit-before-export",
+    "storage_overflow": "stop-new-work-or-expand-within-authorized-budget"
+  },
+  "manuscript_quality": {
+    "style": "natural-precise-evidence-bound-scholarly-prose",
+    "originality": "original-synthesis-with-source-attribution",
+    "similarity_target": "resolve-unattributed-overlap-under-actual-institution-policy",
+    "turnitin_reports": "authorized-report-review-when-available",
+    "ai_detector_pass_guarantee": false,
+    "human_author_review_required": true
+  },
+  "external_frameworks": "opt-in"
+}
